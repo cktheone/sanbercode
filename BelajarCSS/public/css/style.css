@@ -1,0 +1,91 @@
+body{
+    
+    background: url(../img/pattern.jpg);
+    margin: 0px;
+
+    }
+
+section{
+    background-color: white;
+    width: 80%;
+    margin:auto;
+
+}
+
+h1{
+    text-align: center;
+    }
+
+article{
+        font-family: verdana;
+        font-size: 12px;
+        padding: 5px;
+        border-bottom-style: solid;
+        border-width:0.5px;
+               
+    }
+
+footer{
+
+    background-color: black;
+    height: 40px;
+    
+}
+
+h5{ 
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+        top: 0;
+        height: 50px;
+        width: 100%;
+        background-color: white;
+       
+
+    } 
+
+#logo{
+    top:0;
+    float: left;
+    width: 140px;
+    height: 40px;
+      
+    }
+
+nav ul {
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        margin: auto;       
+     }
+
+
+
+    nav ul li{
+        float:right;
+        padding: 15px;
+        color: blue;
+        font-weight: bold;
+        margin: auto;
+    }
+
+    nav ul li:hover{
+        background: gray;
+
+        
+    }
+
+    nav ul li:hover a{
+        color:#000;
+    }
+
+    nav ul li a{
+        display: block;
+        padding: 0px;
+        color: #fff;
+        text-decoration: none;
+        background-color: #dddddd;
+    }
